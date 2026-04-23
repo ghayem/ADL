@@ -80,3 +80,18 @@ Given the current coefficients, ADL updates the dictionary `D` using another pro
 
 These two steps are alternated for a fixed number of outer iterations. The full ADL procedure is summarized in Algorithm 1 of the paper. 
 
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@inproceedings{ghayem2017accelerated,
+  title={Accelerated dictionary learning for sparse signal representation},
+  author={Ghayem, Fateme and Sadeghi, Mostafa and Babaie-Zadeh, Massoud and Jutten, Christian},
+  booktitle={International Conference on Latent Variable Analysis and Signal Separation},
+  pages={531--541},
+  year={2017},
+  organization={Springer}
+}
+```
+
