@@ -36,7 +36,7 @@ The main idea of ADL is to solve dictionary learning by alternating between:
 1. a **sparse representation step** for updating `X`,
 2. a **dictionary update step** for updating `D`,
 
-while using **accelerated proximal gradient-style iterations** with extrapolation/inertial terms in both steps. The paper reports faster convergence and better recovery performance than several baseline methods on synthetic dictionary recovery experiments. :contentReference[oaicite:0]{index=0}
+while using **accelerated proximal gradient-style iterations** with extrapolation/inertial terms in both steps. The paper reports faster convergence and better recovery performance than several baseline methods on synthetic dictionary recovery experiments. 
 
 ---
 
@@ -74,9 +74,9 @@ The method then accelerates this update using an extrapolation term with weight 
 
 ### 2) Dictionary update step
 
-Given the current coefficients, ADL updates the dictionary `D` using another proximal gradient-type iteration, followed by projection onto the set of unit-norm columns. This step is also accelerated using an inertial/extrapolation term with weight `w_d`. :contentReference[oaicite:4]{index=4}
+Given the current coefficients, ADL updates the dictionary `D` using another proximal gradient-type iteration, followed by projection onto the set of unit-norm columns. This step is also accelerated using an inertial/extrapolation term with weight `w_d`. 
 
 ### 3) Alternating optimization
 
-These two steps are alternated for a fixed number of outer iterations. The full ADL procedure is summarized in Algorithm 1 of the paper. :contentReference[oaicite:5]{index=5}
+These two steps are alternated for a fixed number of outer iterations. The full ADL procedure is summarized in Algorithm 1 of the paper. 
 
