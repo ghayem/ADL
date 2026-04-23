@@ -50,8 +50,6 @@ while using **accelerated proximal gradient-style iterations** with extrapolatio
 - `gererateSyntheticDictionaryAndData.m` — synthetic data generation script
 - `test_ADL.m` — example script for reproducing synthetic dictionary recovery experiments
 
-The repository currently contains the core MATLAB code for the algorithm and its synthetic experiments. :contentReference[oaicite:1]{index=1}
-
 ---
 
 ## Method summary
@@ -72,7 +70,7 @@ Because the penalty is `l1`, the proximal operator becomes **soft-thresholding**
 
 `Soft_lambda(x) = sign(x) * max(|x| - lambda, 0)`.
 
-The paper then accelerates this update using an extrapolation term with weight `w_x`. :contentReference[oaicite:3]{index=3}
+The method then accelerates this update using an extrapolation term with weight `w_x`. :contentReference[oaicite:3]{index=3}
 
 ### 2) Dictionary update step
 
