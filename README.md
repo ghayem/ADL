@@ -58,7 +58,7 @@ The paper considers the dictionary learning problem
 
 `min_{D in D, X} 0.5 * ||Y - D X||_F^2 + lambda * ||X||_1`
 
-where `D` is the set of dictionaries whose columns all have unit Euclidean norm. :contentReference[oaicite:2]{index=2}
+where `D` is the set of dictionaries whose columns all have unit Euclidean norm.
 
 ### 1) Sparse representation step
 
@@ -70,7 +70,7 @@ Because the penalty is `l1`, the proximal operator becomes **soft-thresholding**
 
 `Soft_lambda(x) = sign(x) * max(|x| - lambda, 0)`.
 
-The method then accelerates this update using an extrapolation term with weight `w_x`. :contentReference[oaicite:3]{index=3}
+The method then accelerates this update using an extrapolation term with weight `w_x`.
 
 ### 2) Dictionary update step
 
